@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laban G - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/icons8-code-source-64.png" type="image/png">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <nav id="nav" class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left" class="uk-width-1-1">
+
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li>
+                                    <a href="./exercices/exo html-css/Système Solaire/solarSystem.html" target="_blank">Système solaire</a>
+                                </li>
+                                <li>
+                                    <a href="./exercices/exo html-css/feuTricolor/feuTriocolor.html" target="_blank">Feux tricolors</a>
+                                </li>
+                                <li>
+                                    <a href="./exercices/exo html-css/MisterRobot/misterrobot.html" target="_blank">Mister Robot</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Javascript</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li>
+                                    <a href="exercices/exo js/horlogeJs/horlogeJs.html" target="_blank">Horloge en JS</a>
+                                </li>
+                                <li>
+                                    <a href="exercices/exo js/Ajax/fonction/index.html" target="_blank">Un peu de AJAX</a>
+                                </li>
+                                <li>
+                                    <a href="exercices/exo js/Ajax/exo-fromages/fromage.html" target="_blank">Plus de AJAX</a>
+                                </li>
+                                <li>
+                                    <a href="exercices/exo js/jQuery/exo1/accueil.html" target="_blank">Du Jquery</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">PHP</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li>
+                                    <a href="./exercices/exo php/fromagesPhp/moreCheese.html" target="_blank">Des fromages, en php</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://morganyami.github.io/Palais-du-gout/" target="_blank">Le palais du goût</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="uk-section uk-section-muted">
+            <div class="uk-container">
+                <h3 class="uk-h3">Bienvenu ! </h3>
+                <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+                    <div>
+                        <p>
+                            Un exemple est plus parlant qu'une longue explications: voici donc quelques-unes de mes réalisations. Les languages que j'utilises
+                            sont: Html5 et css3, Javascript, PHP.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section uk-section-muted">
+            <div class="uk-container">
+                <div>
+                    <div id="slider" class="uk-h3">
+                        Quelques aperçus de travaux divers: &nbsp;
+                        <a href="#nav">
+                            <img class="top" src="img/top.png" />
+                        </a>
+                    </div>
+                    <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="animation: pull" style="margin-bottom: 10px;">
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="./img/PalaisDuGout.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="./img/sceen_clock.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="./img/screen_feux.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="./img/screen_robo.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="./img/mdp.png" alt="" uk-cover>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section uk-section-muted">
+            <div id="contact" class="uk-container">
+
+                <h3 class="uk-h3">
+                    Contact: &nbsp;
+                    <a href="#nav">
+                        <img class="top" src="img/top.png" />
+                    </a>
+                </h3>
+                <div class="uk-grid-match uk-child-width-1@m" uk-grid>
+                    <div>
+                        <p>
+                            Vous souhaitez me contacter? Envoyez-moi un mail à: laban.guillaume.07@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

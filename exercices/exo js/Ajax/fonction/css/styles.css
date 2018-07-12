@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-image: url(../img/back-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    background-color: rgba(0, 0, 0, 0.171);
+}
+
+div {
+    width: 80%;
+    background-color: rgba(226, 225, 225, 0.638);
+    padding: 2vw;
+}

@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+section {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    padding: 5px;
+}
+
+article{
+    margin-left: 5vw;
+}
+
+span {
+    font-style: italic;
+}
+
+footer{
+    width: 70%;
+    padding-left: 30%;
+}
+footer a {
+    text-align: right;
+}
+
+.red {
+    color: red;
+}
+.grey {
+    color: grey;
+}

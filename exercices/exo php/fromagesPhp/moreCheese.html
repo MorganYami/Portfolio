@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/styleForm.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="icon" href="./img/icons8-fromage-50.png" type="image/png">
+    <title>More Cheese!</title>
+</head>
+
+<body>
+    <form action="fromagePhp.php" method="post" name="moreCheese" >
+        <fieldset class="uk-fieldset">
+            <legend class="uk-legend">Vous voulez plus de fromage?</legend>
+            <div class="uk-margin">
+                <input class="uk-input" name="nom" type="text" required placeholder="nom du fromage">
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input" name="type" type="text" required placeholder="type de fromage">
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input" name="pays" type="text" required placeholder="pays d'origine">
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input" name="classement" type="text" placeholder="classement">
+            </div>
+        </fieldset>
+        <input class="uk-button uk-button-primary" type="submit" placeholder="Valnameer">
+    </form>
+
+</body>
+
+</html>

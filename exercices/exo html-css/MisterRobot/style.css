@@ -1,0 +1,189 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background-image: url("robot-and-hologram-interface-blue-background_v145d6c7e__F0000.png");
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+main {
+    width: 100%;
+    height: 100%;
+    padding-top: 2vh;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#S1 {
+    height: 125px;
+}
+#S2 {
+    height: 15px;
+}
+#S3 {
+    height: 335px;
+}
+#S4 {
+    height: 300px;;
+}
+
+
+div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#box1 {
+    width:125px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(79, 77, 77);
+    background:linear-gradient(to right, rgb(201, 197, 197), white, rgb(201, 197, 197));
+    animation-name: head;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;  
+}
+@keyframes head {
+    0% {transform: rotate(0deg); transform-origin: bottom}
+    40% {transform: rotate(2deg); transform-origin: bottom }
+    60% {transform: rotate(-2deg); transform-origin: bottom}
+    100% {transform: rotate(0deg); transform-origin: bottom}
+}
+
+.T1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.oeil {
+    width: 20%;
+    height: 45%;
+    border-radius: 50%;
+    background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(142, 5, 5) 65%);
+    animation-name: chgt-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+    border: 1px solid rgb(79, 77, 77);
+}
+@keyframes chgt-color {
+    0% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(142, 5, 5) 65%)}
+    50% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(142, 5, 5) 65%)}
+    60% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    90% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    100% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(142, 5, 5) 65%)}
+}    
+
+#bouche {
+    width: 60%;
+    height: 20%;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(174,174,174);
+    border: 1px solid rgb(79, 77, 77);
+}
+.dent {
+    width: 10%;
+    height: 100%;
+    background-color: rgb(121, 121, 121);
+}
+
+#box2 {    
+    background-color: rgb(231, 223, 223);
+    width: 45px;
+}
+
+#box3 { 
+    width:300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.bras1, .bras2 {
+    width:22%;
+    height: 100%;   
+    background:linear-gradient(to right, rgb(201, 197, 197), white, rgb(201, 197, 197));
+    
+    border-radius: 5px;
+    border: 1px solid rgb(79, 77, 77);
+}
+
+.bras1:focus {    
+    animation-name: hello;
+    animation-duration: 3s;
+}
+@keyframes hello {
+    0% {transform: rotate(0deg); transform-origin: top right}
+    50% {transform: rotate(100deg); transform-origin: top right}
+    100% {transform: rotate(0deg); transform-origin: top right}
+}
+
+#torse {
+    width:50%;   
+    background:linear-gradient(to right, rgb(201, 197, 197), white, rgb(201, 197, 197));
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(79, 77, 77);
+    }
+    #torse img {
+        width: 50%;
+        padding: 5px;
+        border: 1px solid rgb(79, 77, 77);
+        border-radius: 3px;
+        background: linear-gradient(rgb(230, 228, 228),rgb(180, 182, 182), rgb(230, 228, 228)) ;
+    }
+
+#box4 {    
+    width:154px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.jambes {
+    width: 80%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.jambe {
+    width: 95%;
+    height: 80%;
+    background:linear-gradient(to right, rgb(201, 197, 197), white, rgb(201, 197, 197));
+    border-radius: 5px;
+    border: 1px solid rgb(79, 77, 77);
+}
+
+.pied {
+    padding-top: 1vh;
+    width: 95%;
+    height: 12%;
+    background:linear-gradient(to right, rgb(201, 197, 197), white, rgb(201, 197, 197));
+    border-radius: 5px;
+    border: 1px solid rgb(79, 77, 77);
+}

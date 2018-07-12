@@ -1,0 +1,127 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    width:100%;
+    height:100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("Black-Road-Wallpaper-1920x1200.jpg");
+    background-position: center;
+}
+
+section {
+    width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background:linear-gradient(to right,rgb(38, 38, 38),rgb(109, 107, 107),rgb(109, 107, 107),rgb(38, 38, 38));
+}
+
+section div {
+    box-shadow: 5px 5px rgb(57, 77, 77);
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: black;
+    border: 1px solid black;
+}
+
+/* animation du feu1*/
+#rouge1 {
+    animation-name: arret1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes arret1 {
+    0% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    15% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    16% {background: rgb(21, 2, 2)}
+    55% {background: rgb(21, 2, 2)}
+    56% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    100% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+}
+
+#orange1 {
+    animation-name: ralenti1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes ralenti1 {
+    0% {background: black}
+    44% {background: black}
+    45% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(242, 129, 8) 65%)}
+    55% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(242, 129, 8) 65%)}
+    56% {background: black}
+    100% {background: black}
+}
+
+#vert1 {
+    animation-name: passe1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes passe1 {
+    0% {background: rgb(1, 24, 1)}
+    15% {background: rgb(1, 24, 1)}
+    16% {background: radial-gradient(circle,rgb(48, 245, 8) 45%,rgb(1, 138, 24) 65%)}
+    44% {background: radial-gradient(circle,rgb(48, 245, 8) 45%,rgb(1, 138, 24) 65%)}
+    45% {background: rgb(1, 24, 1)}
+    100% {background: rgb(1, 24, 1)}
+}
+
+/* animation du feu2*/
+#rouge2 {
+    animation-name: arret2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes arret2 {
+    0% {background: rgb(21, 2, 2)}
+    10% {background: rgb(21, 2, 2)}
+    11% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    59% {background:radial-gradient(circle,rgb(255, 0, 0) 45%,rgb(142, 5, 5) 65%)}
+    60% {background: rgb(21, 2, 2)}
+    100% {background: rgb(21, 2, 2)}
+}
+
+#orange2 {
+    animation-name: ralenti2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes ralenti2 {
+    0% {background: black}
+    1% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(242, 129, 8) 65%)}
+    10% {background: radial-gradient(circle,rgb(245, 198, 8) 45%,rgb(242, 129, 8) 65%)}
+    11% {background: black}
+    100% {background: black}
+}
+
+#vert2 {
+    animation-name: passe2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes passe2 {
+    0% {background: radial-gradient(circle,rgb(48, 245, 8) 45%,rgb(1, 138, 24) 65%)}
+    1% {background: rgb(1, 24, 1)}
+    59% {background: rgb(1, 24, 1)}
+    60% {background: radial-gradient(circle,rgb(48, 245, 8) 45%,rgb(1, 138, 24) 65%)}
+    100% {background: radial-gradient(circle,rgb(48, 245, 8) 45%,rgb(1, 138, 24) 65%)}
+}

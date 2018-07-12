@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+}
+
+body {
+    background-image: url("../marché-de-fromage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 60%;
+    top: 5vh;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h3 {
+    margin: 0%;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+article {
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    left: 65%;
+    width: 33%;
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+article p{
+    margin: 2px;
+}
+
+.pays {
+    margin-left: 10px;

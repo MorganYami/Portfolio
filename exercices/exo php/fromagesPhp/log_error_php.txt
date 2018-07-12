@@ -1,0 +1,22 @@
+[04-Jul-2018 11:19:22 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:19:40 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:19:46 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:20:32 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:20:37 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:21:01 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 20
+[04-Jul-2018 11:24:45 Europe/Berlin] PHP Warning:  file_put_contents(http://localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: HTTP wrapper does not support writeable connections in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 50
+[04-Jul-2018 11:24:45 Europe/Berlin] PHP Warning:  file_put_contents(http://localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: HTTP wrapper does not support writeable connections in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 51
+[04-Jul-2018 11:25:44 Europe/Berlin] PHP Warning:  file_put_contents(http://localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: HTTP wrapper does not support writeable connections in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 49
+[04-Jul-2018 11:25:44 Europe/Berlin] PHP Warning:  file_put_contents(http://localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: HTTP wrapper does not support writeable connections in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 50
+[04-Jul-2018 11:32:48 Europe/Berlin] PHP Warning:  file_get_contents(/localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: No such file or directory in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 32
+[04-Jul-2018 11:32:48 Europe/Berlin] PHP Warning:  array_push() expects parameter 1 to be array, null given in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 42
+[04-Jul-2018 11:32:48 Europe/Berlin] PHP Warning:  file_put_contents(/localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: No such file or directory in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 49
+[04-Jul-2018 11:32:48 Europe/Berlin] PHP Warning:  file_put_contents(/localhost/exercices/exo%20php/fromagesPhp/js/fromages.json): failed to open stream: No such file or directory in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 50
+[05-Jul-2018 09:02:12 Europe/Berlin] PHP Notice:  Undefined index: nom in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 26
+[05-Jul-2018 09:02:13 Europe/Berlin] PHP Notice:  Undefined index: type in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 27
+[05-Jul-2018 09:02:13 Europe/Berlin] PHP Notice:  Undefined index: pays in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 28
+[05-Jul-2018 09:02:13 Europe/Berlin] PHP Notice:  Undefined index: classement in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 29
+[05-Jul-2018 09:02:23 Europe/Berlin] PHP Notice:  Undefined index: nom in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 26
+[05-Jul-2018 09:02:23 Europe/Berlin] PHP Notice:  Undefined index: type in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 27
+[05-Jul-2018 09:02:23 Europe/Berlin] PHP Notice:  Undefined index: pays in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 28
+[05-Jul-2018 09:02:23 Europe/Berlin] PHP Notice:  Undefined index: classement in /srv/html/exercices/exo php/fromagesPhp/fromagePhp.php on line 29

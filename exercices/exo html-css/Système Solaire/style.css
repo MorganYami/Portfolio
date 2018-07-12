@@ -1,0 +1,268 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    width:100%;
+    height:100%;
+    color: white;
+    background-image: url(./space2.png);
+    background-size: 200%;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    border: 1px solid white;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    background-color: rgba(0, 0, 0, 0.878);
+}
+p {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.878);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section p , section h2 {
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#heliosphère {
+    width: 60vw;
+    height: 60vw;
+}
+
+#N, #U, #Sa, #J, #Ma, #T, #V, #Me {
+    position: absolute;
+    animation-name: orbit;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border: 1px solid rgba(255, 255, 255, 0.467);
+}
+
+#N {
+    width: 55vw;
+    height: 55vw;
+    animation-duration: 4122500ms;
+    }
+    #Neptune {
+        position: absolute;
+        top: -8px;
+        width: 15px;
+        height: 15px;
+        background-color: rgb(16, 23, 213);
+    }
+
+#U {
+    width: 50vw;
+    height: 50vw;
+    animation-duration: 2100000ms;
+    }
+    #Uranus {
+        position: absolute;
+        top: -8px;
+        width: 15px;
+        height: 15px;
+        background-color: rgb(16, 177, 213);
+    }
+    #anneau {
+        width: 20px;
+        height: 1px;
+        transform: rotate(90deg);
+        background-color: white;
+    }
+
+#Sa {
+    width: 45vw;
+    height: 45vw;
+    animation-duration: 736500ms;
+    }
+    #Saturne {
+        position: absolute;
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(to bottom, rgb(209, 190, 114), rgb(233, 189, 132), rgb(209, 190, 114));
+    }
+    #anneaux {
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+
+#J {
+    width: 40vw;
+    height: 40vw;
+    animation-duration: 296500ms;
+    }
+    #Jupiter {
+        position: absolute;
+        top: -13px;
+        width: 25px;
+        height: 25px;
+        background: linear-gradient(to bottom, rgb(213, 183, 65), rgb(209, 138, 44), rgb(213, 183, 65));
+    }
+
+#Ma {
+    width: 35vw;
+    height: 35vw;
+    animation-duration: 47000ms;
+    }
+    #Mars {
+        position: absolute;
+        top: -4px;
+        width: 7px;
+        height: 7px;
+        background-color: rgb(213, 85, 16);
+    }
+
+#T {
+    width: 30vw;
+    height: 30vw;
+    animation-duration: 25000ms;
+    }
+    #Terra {
+        position: absolute;
+        top: -5px;
+        width: 10px;
+        height: 10px;
+        background: linear-gradient(to bottom, rgb(4, 88, 199), rgb(10, 201, 10), rgb(4, 88, 199), rgb(10, 201, 10), rgb(4, 88, 199));
+    }
+
+#V {
+    width: 25vw;
+    height: 25vw;
+    animation-duration: 15500ms;
+    }
+    #Venus {
+        position: absolute;
+        top: -5px;
+        width: 10px;
+        height: 10px;
+        background: linear-gradient(to bottom, rgb(189, 189, 188), rgb(233, 189, 132), rgb(189, 189, 188));
+    }
+
+#Me {
+    width: 20vw;
+    height: 20vw;
+    animation-duration: 6000ms;
+    }
+    #Mercury {
+        position: absolute;
+        top: -3px;
+        width: 5px;
+        height: 5px;
+        background-color: rgb(75, 74, 71);
+    }
+
+#So {
+    width: 80%;
+    height: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.467);
+    }
+    #Sol {
+        width: 50px;
+        height: 50px;
+        background: radial-gradient(circle,red,orange,rgb(213, 173, 16));
+    }
+
+@keyframes orbit {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(-360deg)}
+}
+
+/* legende des planètes */ 
+
+#NeptuneL {
+    margin: Opx 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(16, 23, 213);
+}
+#UranusL {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    background-color: rgb(16, 177, 213);
+}
+#anneauL {
+    width: 40px;
+    height: 2px;
+    background-color: white;
+}
+#SaturneL {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    background: linear-gradient(to bottom, rgb(209, 190, 114), rgb(233, 189, 132), rgb(209, 190, 114));
+}
+#anneauxL {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+}
+#JupiterL {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(213, 183, 65), rgb(209, 138, 44), rgb(213, 183, 65));
+}
+#MarsL {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgb(213, 85, 16);
+}
+#TerraL {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(4, 88, 199), rgb(10, 201, 10), rgb(4, 88, 199), rgb(10, 201, 10), rgb(4, 88, 199));
+}
+#VenusL {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(189, 189, 188), rgb(233, 189, 132), rgb(189, 189, 188));
+}
+#MercuryL {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(75, 74, 71);
+}
+#SolL {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle,red,orange,rgb(213, 173, 16));
+}
